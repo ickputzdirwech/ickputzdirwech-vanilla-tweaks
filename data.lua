@@ -1,0 +1,6 @@
+require("prototypes.crafting-category")
+require("prototypes.item-groups")
+require("prototypes.recipe")
+require("prototypes.signal")
+require("prototypes.technology")
+require("prototypes.tree-rock-fish")

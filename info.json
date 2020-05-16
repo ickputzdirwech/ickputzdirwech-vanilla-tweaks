@@ -1,0 +1,10 @@
+{
+    "name": "ickputzdirwech-vanilla-tweaks",
+    "version": "0.18.0",
+    "title": "ickputzdirwech's vanilla tweaks",
+    "author": "ickputzdirwech",
+    "contact": "ickputzdirwech@gmx.de",
+    "factorio_version": "0.18",
+    "dependencies":["base >= 0.18.22"],
+    "description": "Upgrade recipes for armor, furnaces etc. Signals with recipe icons that are missing in vanilla. Variated mining results for trees, rocks and fish."
+}
