@@ -1,20 +1,5 @@
-data.raw["item-group"]["other"].icon = "__base__/graphics/technology/radar.png"
-data.raw["item-group"]["other"].icon_size = 128
-
 data:extend(
 {
-  {
-    type = "item-subgroup",
-    name = "ick-virtual-signal-recipe",
-    group = "signals",
-    order = "g"
-  },
-  {
-    type = "item-subgroup",
-    name = "ick-virtual-signal-fluid",
-    group = "signals",
-    order = "h"
-  },
   {
     type = "item-group",
     name = "ick-upgrades",
