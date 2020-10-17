@@ -1,8 +1,4 @@
 --[[
-if settings.startup["ick-ghost-icon"].value == true then
-  require("prototypes.misc.cursor")
-end
-
 if settings.startup["ick-icon-variations"].value == true then
   require("prototypes.misc.icon-variations")
 end
@@ -16,6 +12,9 @@ if settings.startup["ick-vehicle-weapons"].value == true then
   require("prototypes.misc.vehicle-weapons")
 end
 
+if settings.startup["ick-technology-dependencies"].value == true then
+  require("prototypes.misc.technology-dependencies")
+end
 
 if settings.startup["ick-misc-order"].value == true then
   require("prototypes.order.misc")

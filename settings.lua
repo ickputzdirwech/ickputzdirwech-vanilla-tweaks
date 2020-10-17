@@ -34,6 +34,13 @@ data:extend(
     setting_type = "startup",
     default_value = true,
   },
+  --MULTI LEVEL TECHNOLOGIES DEPENDENCIES
+  {
+    type = "bool-setting",
+    name = "ick-technology-dependencies",
+    setting_type = "startup",
+    default_value = true,
+  },
   --MINING RESULT VARIATIONS
   {
     type = "bool-setting",

@@ -61,7 +61,7 @@ for index, force in pairs(game.forces) do
   end
 
   if technologies["power-armor-mk2"].researched then
-    recipes["power-armor-mk2"].enabled = true
+    recipes["ick-power-armor-mk2"].enabled = true
   end
 
 end

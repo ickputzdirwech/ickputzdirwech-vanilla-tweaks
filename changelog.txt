@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+Date: 2020-06-12
+  Major Features:
+    - Initial release.
+    - Each feature can be toggled with a setting.
+  Features:
+    - Recipes to upgrade armor, furnaces, chests, power poles, boilers, weapons and ammo.
+    - Oil and barrel recipes, fluids and solid fuel are reordered to be more consistent.
+    - Rocket silo, repair pack and artillery wagon are reordered.
+    - Vehicle technologies require the technologies for the weapons that come with the vehicle.
+    - Virtual signals for all 12 missing recipe icons and all 15 alert icons.
+    - Variated mining results for trees, rocks and fish.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-10-17
+  Features:
+    - Overhaul of dependencies for bonus technologies. Each level now requires the technologies for the effected items and for the science packs needed for the technologies.
