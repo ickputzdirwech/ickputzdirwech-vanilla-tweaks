@@ -1,19 +1,14 @@
 table.insert(data.raw.technology["braking-force-3"].prerequisites, "production-science-pack")
 table.insert(data.raw.technology["braking-force-6"].prerequisites, "utility-science-pack")
 
-table.remove(data.raw.technology["energy-weapons-damage-1"].prerequisites, 2) --military-science-pack
-table.remove(data.raw.technology["energy-weapons-damage-1"].prerequisites, 1) --laser
-table.insert(data.raw.technology["energy-weapons-damage-1"].prerequisites, "laser-turrets")
-table.insert(data.raw.technology["energy-weapons-damage-4"].prerequisites, "combat-robotics-2")
-table.insert(data.raw.technology["energy-weapons-damage-5"].prerequisites, "combat-robotics-3")
-
-table.insert(data.raw.technology["follower-robot-count-3"].prerequisites, "combat-robotics-2")
+table.insert(data.raw.technology["energy-weapons-damage-5"].prerequisites, "destroyer")
 
 table.insert(data.raw.technology["inserter-capacity-bonus-3"].prerequisites, "chemical-science-pack")
 table.insert(data.raw.technology["inserter-capacity-bonus-4"].prerequisites, "production-science-pack")
 table.insert(data.raw.technology["inserter-capacity-bonus-7"].prerequisites, "utility-science-pack")
 
-table.insert(data.raw.technology["laser-turret-speed-5"].prerequisites, "utility-science-pack")
+table.insert(data.raw.technology["laser-shooting-speed-1"].prerequisites, "military-science-pack")
+table.insert(data.raw.technology["laser-shooting-speed-5"].prerequisites, "utility-science-pack")
 
 table.insert(data.raw.technology["mining-productivity-2"].prerequisites, "chemical-science-pack")
 table.insert(data.raw.technology["mining-productivity-3"].prerequisites, "production-science-pack")
@@ -21,7 +16,7 @@ table.insert(data.raw.technology["mining-productivity-3"].prerequisites, "utilit
 
 table.insert(data.raw.technology["physical-projectile-damage-2"].prerequisites, "logistic-science-pack")
 table.insert(data.raw.technology["physical-projectile-damage-3"].prerequisites, "military-science-pack")
-table.insert(data.raw.technology["physical-projectile-damage-5"].prerequisites, "tanks")
+table.insert(data.raw.technology["physical-projectile-damage-5"].prerequisites, "tank")
 table.insert(data.raw.technology["physical-projectile-damage-6"].prerequisites, "utility-science-pack")
 
 table.insert(data.raw.technology["refined-flammables-3"].prerequisites, "chemical-science-pack")
@@ -36,10 +31,8 @@ table.insert(data.raw.technology["stronger-explosives-3"].prerequisites, "chemic
 table.insert(data.raw.technology["stronger-explosives-3"].prerequisites, "rocketry")
 table.insert(data.raw.technology["stronger-explosives-4"].prerequisites, "utility-science-pack")
 
-table.insert(data.raw.technology["weapon-shooting-speed-3"].prerequisites, "military-science-pack")
 table.insert(data.raw.technology["weapon-shooting-speed-3"].prerequisites, "rocketry")
-table.insert(data.raw.technology["weapon-shooting-speed-5"].prerequisites, "chemical-science-pack")
-table.insert(data.raw.technology["weapon-shooting-speed-5"].prerequisites, "tanks")
+table.insert(data.raw.technology["weapon-shooting-speed-5"].prerequisites, "tank")
 table.insert(data.raw.technology["weapon-shooting-speed-6"].prerequisites, "utility-science-pack")
 
 table.insert(data.raw.technology["worker-robots-speed-3"].prerequisites, "utility-science-pack")

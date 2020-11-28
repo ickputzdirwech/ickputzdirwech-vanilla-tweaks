@@ -4,8 +4,19 @@ data:extend(
     type = "item-group",
     name = "ick-upgrades",
     order = "e",
-    icon = "__base__/graphics/technology/radar.png",
-    icon_size = 128
+    icons =
+    {
+      {
+        icon = "__core__/graphics/icons/category/unsorted.png",
+        icon_size = 128,
+        icon_mipmaps = 2,
+      },
+      {
+        icon = "__core__/graphics/arrows/gui-arrow-small.png",
+        icon_size = 42,
+        shift = {35, 35}
+      },
+    },
   },
   {
     type = "item-subgroup",

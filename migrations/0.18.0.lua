@@ -36,7 +36,7 @@ for index, force in pairs(game.forces) do
     recipes["ick-combat-shotgun"].enabled = true
   end
 
-  if technologies["tanks"].researched then
+  if technologies["tank"].researched then
     recipes["ick-explosive-cannon-shell"].enabled = true
   end
 

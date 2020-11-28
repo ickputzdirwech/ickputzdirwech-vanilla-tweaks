@@ -10,7 +10,7 @@ table.insert(data.raw.technology["nuclear-power"].effects, {type = "unlock-recip
 
 table.insert(data.raw.technology["military"].effects, {type = "unlock-recipe", recipe = "ick-submachine-gun"})
 table.insert(data.raw.technology["military-3"].effects, {type = "unlock-recipe", recipe = "ick-combat-shotgun"})
-table.insert(data.raw.technology["tanks"].effects, {type = "unlock-recipe", recipe = "ick-explosive-cannon-shell"})
+table.insert(data.raw.technology["tank"].effects, {type = "unlock-recipe", recipe = "ick-explosive-cannon-shell"})
 table.insert(data.raw.technology["uranium-ammo"].effects, {type = "unlock-recipe", recipe = "ick-explosive-uranium-cannon-shell"})
 table.insert(data.raw.technology["atomic-bomb"].effects, {type = "unlock-recipe", recipe = "ick-atomic-bomb"})
 
