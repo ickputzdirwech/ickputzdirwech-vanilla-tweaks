@@ -23,3 +23,12 @@ Version: 1.1.0
 Date: 2020-11-28
   Features:
     - Updated for 1.1
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2020-12-01
+  Changes:
+    - Removed reordering of rocket silo, since it was changed in vanilla
+    - Added README.txt file
+  Bugfixes:
+    - Removed military science pack as a prerequisite for laser shooting speed technology. It is a dependency in base game now.

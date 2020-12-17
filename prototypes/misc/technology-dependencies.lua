@@ -7,7 +7,6 @@ table.insert(data.raw.technology["inserter-capacity-bonus-3"].prerequisites, "ch
 table.insert(data.raw.technology["inserter-capacity-bonus-4"].prerequisites, "production-science-pack")
 table.insert(data.raw.technology["inserter-capacity-bonus-7"].prerequisites, "utility-science-pack")
 
-table.insert(data.raw.technology["laser-shooting-speed-1"].prerequisites, "military-science-pack")
 table.insert(data.raw.technology["laser-shooting-speed-5"].prerequisites, "utility-science-pack")
 
 table.insert(data.raw.technology["mining-productivity-2"].prerequisites, "chemical-science-pack")
