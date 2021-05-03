@@ -1,10 +1,11 @@
-table.insert(data.raw.character.character.crafting_categories, "ick-crafting-handonly")
+if settings.startup["ick-upgrades"].value then
+  table.insert(data.raw.character.character.crafting_categories, "ick-crafting-handonly")
 
-data:extend(
-{
+  data:extend(
   {
-    type = "recipe-category",
-    name = "ick-crafting-handonly"
-  }
-}
-)
+    {
+      type = "recipe-category",
+      name = "ick-crafting-handonly"
+    }
+  })
+end
