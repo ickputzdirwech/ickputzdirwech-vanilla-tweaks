@@ -1,8 +1,8 @@
 **Please report any bugs and send me your ideas.
 This mod adds the following features. Each one has a setting to disable it.**
 
-# Upgrade recipes:
-Recipes to upgrade lower tier items into higher tier ones. The recipes are added in a new tab and can only crafted by the player. The ingredients are as close to the normal recipes as possible, while still being beneficial over just discarding the lower tier items. The following recipes are available:
+## Upgrade recipes
+Recipes to upgrade lower tier items into higher tier ones. The recipes are added in a new tab and can only be crafted by the player. The ingredients are as close to the normal recipes as possible, while still being beneficial over just discarding the lower tier items. The following recipes are available:
 
 * Wood chest -> Iron chest
 * Iron chest -> Steel chest
@@ -26,7 +26,11 @@ Recipes to upgrade lower tier items into higher tier ones. The recipes are added
 * Power armor -> Power armor MK2
 
 
-#Oil reordering:
+## Wood to coal
+A recipe to smelt two wood into one coal.
+
+
+## Oil reordering
 Oil and barrel recipes, fluids and solid fuel are reordered to be more consistent.
 
 * New fluid and barrel order: Water, (Steam,) Crude oil, Heavy oil, Light oil, Petroleum gas, Sulfuric acid, Lubricant
@@ -34,21 +38,21 @@ Oil and barrel recipes, fluids and solid fuel are reordered to be more consisten
 * Solid fuel is moved behind Sulfur
 
 
-# Misc reordering:
+## Misc reordering
 Some items that I feel are in the wrong place in the recipe book:
 
 * Repair pack is moved in front of robots
 * Artillery wagon is moved behind artillery turret
 
 
-# Vehicle technologies:
+## Vehicle technologies
 In vanilla the tank has a flamethrower even if you haven't research them yet, same with the submachine gun and the car. The dev's don't consider this a bug. I fixed it anyway:
 
 * Automobilism requires military
 * Tank requires flamethrower
 
 
-# Bonus technology dependencies
+## Bonus technology dependencies
 Bonus technologies require technologies according to their bonuses and science packs. The following dependencies are added:
 
 * Braking force 3 -> Production science pack
@@ -81,14 +85,14 @@ Bonus technologies require technologies according to their bonuses and science p
 * Worker robot storage 3 -> Utility science pack
 
 
-# Signals:
+## Signals
 27 new virtual signals.
 
 * 15 virtual signals for all warning and alert icons.
-* 12 virtual signals for recipe icons like rocket part and kovarex enrichment process
+* 12 virtual signals for recipe icons like rocket part and kovarex enrichment process.
 
 
-# Variated mining results:
+## Variated mining results
 Results when mining trees, rocks and fish are variable like the huge rock in vanilla.
 
 * Trees: 2 to 4 wood
