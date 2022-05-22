@@ -15,7 +15,7 @@ end
 local entities = {
   {type = "tree", name = "dry-tree", result = {{name = "wood", amount_min = 1, amount_max = 3}}}, --originally 4
   {type = "simple-entity", name = "rock-big", result = {{name = "stone", amount_min = 17, amount_max = 23}}},
-  {type = "tree", name = "dry-tree", result = {{name = "raw-fish", amount_min = 2, amount_max = 8}}}
+  {type = "fish", name = "fish", result = {{name = "raw-fish", amount_min = 2, amount_max = 8}}}
 }
 
 for _, entity in pairs(entities) do

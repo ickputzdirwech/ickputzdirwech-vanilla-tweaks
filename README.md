@@ -1,6 +1,8 @@
 **Please report any bugs and send me your ideas.
 This mod adds the following features. Each one has a setting to disable it.**
 
+You can help translate this mod on [Crowdin](https://crowdin.com/project/factorio-mods-localization).
+
 ## Upgrade recipes
 Recipes to upgrade lower tier items into higher tier ones. The recipes are added in a new tab and can only be crafted by the player. The ingredients are as close to the normal recipes as possible, while still being beneficial over just discarding the lower tier items. The following recipes are available:
 
@@ -86,10 +88,11 @@ Bonus technologies require technologies according to their bonuses and science p
 
 
 ## Signals
-27 new virtual signals.
+41 new virtual signals.
 
 * 15 virtual signals for all warning and alert icons.
 * 12 virtual signals for recipe icons like rocket part and kovarex enrichment process.
+* 14 virtual signals for barreling and unbarreling recipe icons (including ones added by mods).
 
 
 ## Variated mining results

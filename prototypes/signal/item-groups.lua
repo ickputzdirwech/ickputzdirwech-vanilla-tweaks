@@ -24,6 +24,18 @@ if settings.startup["ick-signals"].value then
 			name = "ick-virtual-signal-fluid",
 			group = "signals",
 			order = "h"
+		},
+		{
+			type = "item-subgroup",
+			name = "ick-virtual-signal-fill-barrel",
+			group = "signals",
+			order = "i"
+		},
+		{
+			type = "item-subgroup",
+			name = "ick-virtual-signal-empty-barrel",
+			group = "signals",
+			order = "j"
 		}
 	})
 end
